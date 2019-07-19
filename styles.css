@@ -1,0 +1,45 @@
+.jumbotron {
+  height: 500px;
+  background-color: black;
+  color: #ffc400;
+}
+
+.card-deck {
+  padding: 40px;
+}
+
+.card {
+  border-color: blue;
+  margin: 5%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.inner {
+  margin: 10px;
+  margin-left: 0px;
+  border: none;
+  min-width: 14rem;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+.vertical-center {
+  min-height: 30%;
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 30vh;
+  /* These two lines are counted as one :-)       */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul {
+  font-size: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
