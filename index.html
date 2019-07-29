@@ -14,18 +14,112 @@
 </head>
 
 <body>
-    <div class="jumbotron jumbotron-fluid vertical-center mb-0">
+    <!-- <div class="jumbotron jumbotron-fluid vertical-center mb-0">
         <div class="container text-center">
             <h1 class="display-4">Learning Center</h1>
             <p class="lead">Tutoring. Coding Camps. After-School.</p>
         </div>
+    </div> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(255, 218, 131);">
+        <a class="navbar-brand" href="#">The Learning Center</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-pause="false">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="3000">
+                <img src="IMG_1817(1).JPG" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="3000">
+                <img src="IMG_1820(1).JPG" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="3000">
+                <img src="IMG_1821(1).JPG" class="d-block w-100" alt="...">
+            </div>
+        </div>
     </div>
 
     <div class="wrapper">
+        <div class="card-group">
+            <div class="card inner">
+
+                <h5 class="card-header">Why Us?</h5>
+                <div class="card-body">
+
+                    <ul>
+                        <li>Year-round tutoring</li>
+                        <li>Weekly STEM Camps</li>
+                        <li>Year-round coding</li>
+                        <li>STEM After-school</li>
+                        <li>Homework Tutoring</li>
+                        <li>Small group size</li>
+                        <li>Homework assignments</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="card inner" id="middle">
+
+                <h5 class="card-header">Our Locations</h5>
+                <div class="card-body">
+                    <div class="card-group">
+                        <div class="card ayy text-center">
+                            <div class="card-body">
+                                <h4 class="card-title">Cupertino</h5>
+                                    <p class="card-text">10066 S. Stelling Rd Cupertino, CA 95014</p>
+
+                            </div>
+                        </div>
+                        <div class="card ayy text-center">
+
+                            <div class="card-body">
+                                <h4 class="card-title">Sunnyvale</h5>
+                                    <p class="card-text">333 W. Maude Ave, Ste 110 Sunnyvale, CA 94085</p>
+                            </div>
+                        </div>
+                        <div class="card ayy text-center">
+                            <div class="card-body">
+                                <h4 class="card-title">Willow Glen</h5>
+                                    <p class="card-text">2390 Almaden Rd, Ste 40 San Jose, CA 95125</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card inner" id="last">
+                <h5 class="card-header">What We Offer & Pricing</h5>
+                <div class="card-body">
+                    <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="After-school care" data-content="Monday - Friday<br /> $150 per week<br /> 2:00pm - 6:00pm<br />Homework Help<br />Test preparation<br />Art & fun activities<br />Coding<br />Snacks" data-html="true">After-school care</a>
+                    <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Tutoring" data-content="$200 per month for 1 subject<br /> $300 per month for 2 subjects<br /> 2 sessions per week<br />Help with homework<br />Test preparation<br />Free assessment" data-html="true">Tutoring</a>
+                    <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Weekly Camps" data-content="Monday - Friday<br /> 9:00am - 12:00pm: $250<br /> 1:00pm - 4:00pm: $250<br /> 9:00am - 4:00pm: $500<br />" data-html="true">Weekly Camps</a>
+                    <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Coding" data-content="$140 per month<br />1 session per week<br />Python, Scratch, Robotics/VR<br />Free trial offered" data-html="true">Coding</a>
+                    <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Extended Care" data-content="$10 per hour<br />9:00am - 6:00pm" data-html="true">Extended Care</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="wrapper">
         <div class="card mt-0">
             <h5 class="card-header">Why Us?</h5>
             <div class="card-body">
-                <!-- <h5 class="card-title">Special title treatment</h5> -->
+                
                 <ul>
                     <li>All-year tutoring</li>
                     <li>Weekly STEM Camps</li>
@@ -34,8 +128,7 @@
                     <li>Homework Assignments</li>
                     <li>After-school</li>
                 </ul>
-                <!-- <p class="card-text">We offer all-year tutoring, weekly STEM camps, all-year coding, small group sizes, and homework assistance.</p> -->
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                
             </div>
         </div>
 
@@ -75,7 +168,7 @@
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- <div class="card-deck">
         <div class="card">
@@ -110,6 +203,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+
+        $('.popover-dismiss').popover({
+            trigger: 'focus'
+        })
+    </script>
 </body>
 
 </html>

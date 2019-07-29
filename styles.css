@@ -1,15 +1,16 @@
+html, body {
+  height: 100%;
+}
+
 .jumbotron {
   height: 500px;
   background: black;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, black), to(white));
-  background: linear-gradient(180deg, black 50%, white 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
   color: white;
 }
 
 .wrapper {
-  background-color: white;
-  padding-top: 50px;
+  background-color: #A8D0E6;
+  padding-bottom: 100px;
 }
 
 .card-deck {
@@ -17,19 +18,44 @@
 }
 
 .card {
-  border: 1px solid white;
-  background-color: #242335;
+  border: 10px solid black;
+  background-color: #05386B;
   color: white;
-  margin: 5%;
-  margin-right: 10%;
-  margin-left: 10%;
+  height: 300px;
+  margin: 4%;
+  min-width: 32rem;
+  max-width: 100%;
+}
+
+#middle {
+  height: 100%;
+  min-height: 300px;
+}
+
+#last {
+  height: 100%;
+  min-height: 300px;
+}
+
+.card-body > a {
+  margin: 5px;
 }
 
 .inner {
-  margin: 10px;
-  margin-left: 0px;
   border: none;
-  min-width: 14rem;
+}
+
+.card-group > .card + .card {
+  margin-left: 4%;
+}
+
+.ayy {
+  margin: 1%;
+  margin-left: 0px !important;
+  min-width: 0;
+  height: 120px;
+  border: none;
+  min-width: 9rem;
 }
 
 h4 {
@@ -55,5 +81,29 @@ h4 {
 
 ul {
   font-size: 20px;
+}
+
+.carousel-inner {
+  width: 70%;
+  margin: auto;
+}
+
+#carouselExampleControls {
+  background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    min-width: 18rem;
+  }
+  .ayy {
+    min-width: 7rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .carousel-inner {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
