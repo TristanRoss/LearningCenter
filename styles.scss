@@ -33,8 +33,7 @@ html, body {
 #middle {
     height: 100%;
     min-height: 300px;
-    // margin-right: 0%;
-    // margin-left: 0%;
+
 }
 
 #last {
@@ -47,9 +46,9 @@ html, body {
 }
 
 .inner {
-    // margin: 5%;
+
     border: none;
-    // min-width: 20rem;
+
 }
 
 .card-group > .card + .card {
@@ -59,12 +58,10 @@ html, body {
 .ayy {
     margin: 1%;
     margin-left: 0px !important;
-    // padding: 1%;
     min-width: 0;
     height: 120px;
     border: none;
     min-width: 9rem;
-
 
 }
 
@@ -77,15 +74,6 @@ h4 {
     border-bottom: 1px solid gray;
 }
 
-.vertical-center {
-    min-height: 30%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 30vh; /* These two lines are counted as one :-)       */
-  
-    display: flex;
-    align-items: center;
-}
-
-
 ul {
     font-size: 20px;
 }
@@ -96,7 +84,17 @@ ul {
 }
 
 #carouselExampleControls {
-    background-color: white;
+    background-color: rgb(226, 226, 226);
+}
+
+#social {
+    background-color: rgb(11, 22, 32);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#phone {
+    color: white;
 }
 
 
@@ -108,8 +106,6 @@ ul {
     .ayy {
         min-width: 7rem;
     }
-
-
 }
 
 
