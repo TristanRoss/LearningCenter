@@ -17,8 +17,6 @@
     <title>Learning Center</title>
 </head>
 
-
-
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(255, 218, 131);">
@@ -58,7 +56,7 @@
 
     <div class="wrapper">
         <div class="card-group">
-            <div class="card inner">
+            <div class="card inner" id="first">
 
                 <h5 class="card-header">Why Us?</h5>
                 <div class="card-body">
@@ -83,7 +81,7 @@
                         <div class="card ayy text-center">
                             <div class="card-body">
                                 <h4 class="card-title">Cupertino</h5>
-                                    <p class="card-text">10066 S. Stelling Rd Cupertino, CA 95014</p>
+                                    <p class="card-text">10066 S. Stelling Rd<br />Cupertino, CA 95014</p>
 
                             </div>
                         </div>
@@ -91,13 +89,13 @@
 
                             <div class="card-body">
                                 <h4 class="card-title">Sunnyvale</h5>
-                                    <p class="card-text">333 W. Maude Ave, Ste 110 Sunnyvale, CA 94085</p>
+                                    <p class="card-text">333 W. Maude Ave, Ste 110<br />Sunnyvale, CA 94085</p>
                             </div>
                         </div>
                         <div class="card ayy text-center">
                             <div class="card-body">
                                 <h4 class="card-title">Willow Glen</h5>
-                                    <p class="card-text">2390 Almaden Rd, Ste 40 San Jose, CA 95125</p>
+                                    <p class="card-text">2390 Almaden Rd, Ste 40<br />San Jose, CA 95125</p>
                             </div>
                         </div>
                     </div>
@@ -107,11 +105,11 @@
                 <h5 class="card-header">What We Offer & Pricing</h5>
                 <div class="card-body">
                     <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover"
-                        data-placement="top" data-trigger="focus" title="After-school care"
+                        data-placement="top" data-trigger="focus" title="After-school STEM based program <br /><br />Homework help<br />Tutoring<br />Coding<br />Healthy Snacks"
                         data-content="Monday - Friday<br /> $150 per week<br /> 2:00pm - 6:00pm<br />Homework Help<br />Test preparation<br />Art & fun activities<br />Coding<br />Snacks"
                         data-html="true">After-school care</a>
                     <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover"
-                        data-placement="top" data-trigger="focus" title="Tutoring"
+                        data-placement="top" data-trigger="focus" title="Tutoring <br />Math & English"
                         data-content="$200 per month for 1 subject<br /> $300 per month for 2 subjects<br /> 2 sessions per week<br />Help with homework<br />Test preparation<br />Free assessment"
                         data-html="true">Tutoring</a>
                     <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover"
@@ -158,6 +156,8 @@
         $('.popover-dismiss').popover({
             trigger: 'focus'
         })
+
+        
     </script>
 </body>
 
