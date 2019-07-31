@@ -1,0 +1,169 @@
+html, body {
+  height: 100%;
+}
+
+.jumbotron {
+  height: 500px;
+  background: black;
+  color: white;
+}
+
+.wrapper {
+  background-color: #fff27a;
+  padding-bottom: 100px;
+}
+
+.card-deck {
+  padding: 40px;
+}
+
+#top {
+  border: none;
+  background-color: white;
+  color: black;
+  height: 150px;
+  margin: 0;
+}
+
+#top > .card-body {
+  height: 100%;
+}
+
+.card {
+  border: 10px solid black;
+  background-color: red;
+  color: white;
+  height: 300px;
+  margin: 4%;
+  min-width: 32rem;
+  max-width: 100%;
+}
+
+#first {
+  height: 100%;
+  min-height: 300px;
+  background-color: #05386B;
+  color: white;
+}
+
+#middle {
+  height: 100%;
+  min-height: 300px;
+}
+
+#list {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.directions {
+  color: black;
+}
+
+#last {
+  height: 100%;
+  min-height: 300px;
+  background-color: #05386B;
+  color: white;
+}
+
+.card-body > a {
+  margin: 5px;
+}
+
+.inner {
+  border: none;
+}
+
+.card-group > .card + .card {
+  margin-left: 4%;
+}
+
+.ayy {
+  margin: 1%;
+  margin-left: 0px !important;
+  min-width: 0;
+  height: 100%;
+  border: none;
+  min-width: 9rem;
+  background-color: #0069d9;
+}
+
+.popover-header {
+  background-color: #f55454;
+  color: white;
+}
+
+.popover-body {
+  background-color: #fa2525;
+  color: white;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success .btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+.card-header {
+  border-bottom: 1px solid gray;
+}
+
+ul {
+  font-size: 20px;
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel-inner {
+  width: 70%;
+  margin: auto;
+}
+
+#carouselExampleControls {
+  background-color: white;
+}
+
+#social {
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    min-width: 18rem;
+  }
+  .ayy {
+    min-width: 7rem;
+  }
+  #first {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .carousel-inner {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,26 +1,34 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 
 <head>
+    <title>Learning Center</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
     <link rel="prefetch" href="IMG_1817(1).jpg" />
     <link rel="prefetch" href="IMG_1820(1).jpg" />
     <link rel="prefetch" href="IMG_1821(1).jpg" />
     <script src="https://kit.fontawesome.com/ba0d5dd0c3.js"></script>
-    <title>Learning Center</title>
+    <link rel="stylesheet" href="src/css/bootstrap.css">
+    <link rel="stylesheet" href="src/css/styles.css">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(255, 218, 131);">
-        <a class="navbar-brand" href="#">The Learning Center</a>
+    <div class="card" id="top">
+        <div class="card-body text-center">
+            <p class="text-center my-2">(408) 771-9934</p>
+            <p class="text-center my-2">info@myLearningCenter.Biz</p>
+            <p class="text-center my-2">Open 7 days 9am to 7pm</p>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(255, 0, 0);">
+        <a class="navbar-brand" href="index.html">The Learning Center</a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -34,7 +42,6 @@
         </div>
     </nav>
 
-
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-pause="false">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -43,13 +50,16 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active" data-interval="3000">
-                <img src="IMG_1817(1).jpg" class="d-block w-100" alt="...">
+                <img src="IMG_1817(1).jpg" class="d-block w-100"
+                    alt="Three students learning coding with one teacher helping.">
             </div>
             <div class="carousel-item" data-interval="3000">
-                <img src="IMG_1820(1).jpg" class="d-block w-100" alt="...">
+                <img src="IMG_1820(1).jpg" class="d-block w-100"
+                    alt="Three students learning coding with two teachers helping.">
             </div>
             <div class="carousel-item" data-interval="3000">
-                <img src="IMG_1821(1).jpg" class="d-block w-100" alt="...">
+                <img src="IMG_1821(1).jpg" class="d-block w-100"
+                    alt="Five students learning coding with one teacher helping.">
             </div>
         </div>
     </div>
@@ -61,7 +71,7 @@
                 <h5 class="card-header">Why Us?</h5>
                 <div class="card-body">
 
-                    <ul>
+                    <ul id="list">
                         <li>Year-round tutoring</li>
                         <li>Weekly STEM Camps</li>
                         <li>Year-round coding</li>
@@ -82,6 +92,7 @@
                             <div class="card-body">
                                 <h4 class="card-title">Cupertino</h5>
                                     <p class="card-text">10066 S. Stelling Rd<br />Cupertino, CA 95014</p>
+                                    <a class="directions" href="https://goo.gl/maps/RYDihHv7gN4duRta8">Directions</a>
 
                             </div>
                         </div>
@@ -90,12 +101,15 @@
                             <div class="card-body">
                                 <h4 class="card-title">Sunnyvale</h5>
                                     <p class="card-text">333 W. Maude Ave, Ste 110<br />Sunnyvale, CA 94085</p>
+                                    <a class="directions" href="https://goo.gl/maps/3AbXqxZYoS7CyQsLA">Directions</a>
                             </div>
                         </div>
                         <div class="card ayy text-center">
                             <div class="card-body">
                                 <h4 class="card-title">Willow Glen</h5>
                                     <p class="card-text">2390 Almaden Rd, Ste 40<br />San Jose, CA 95125</p>
+                                    <a class="directions" href="https://goo.gl/maps/YzgM8gRHx8FJW4rE7">Directions</a>
+                                    
                             </div>
                         </div>
                     </div>
@@ -105,25 +119,38 @@
                 <h5 class="card-header">What We Offer & Pricing</h5>
                 <div class="card-body">
                     <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover"
-                        data-placement="top" data-trigger="focus" title="After-school STEM based program <br /><br />Homework help<br />Tutoring<br />Coding<br />Healthy Snacks"
-                        data-content="Monday - Friday<br /> $150 per week<br /> 2:00pm - 6:00pm<br />Homework Help<br />Test preparation<br />Art & fun activities<br />Coding<br />Snacks"
-                        data-html="true">After-school care</a>
+                        data-placement="top" data-trigger="focus"
+                        title="After-school<br />STEM based program <br /><br />Homework help<br />Tutoring<br />Coding<br />Healthy Snacks"
+                        data-content="$150 per week<br />or<br />$40 per day" data-html="true">After-school STEM</a>
                     <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover"
-                        data-placement="top" data-trigger="focus" title="Tutoring <br />Math & English"
-                        data-content="$200 per month for 1 subject<br /> $300 per month for 2 subjects<br /> 2 sessions per week<br />Help with homework<br />Test preparation<br />Free assessment"
+                        data-placement="top" data-trigger="focus"
+                        title="Tutoring <br />Math & English<br /><br />Free assessment<br />Homework help<br />Extra Practice<br />Test Prep"
+                        data-content="$200 per month for 1 subject<br /> $300 per month for 2 subjects<br /> 2 sessions per week"
                         data-html="true">Tutoring</a>
                     <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover"
-                        data-placement="top" data-trigger="focus" title="Weekly Camps"
-                        data-content="Monday - Friday<br /> 9:00am - 12:00pm: $250<br /> 1:00pm - 4:00pm: $250<br /> 9:00am - 4:00pm: $500<br />"
-                        data-html="true">Weekly Camps</a>
+                        data-placement="top" data-trigger="focus"
+                        title="STEM Camps<br />offered all 7 days<br /><br />Design games<br />Coding Projects<br />Fun Learning activities<br />Healthy Snacks"
+                        data-content="Monday - Friday<br /> 9am to 12pm $50 per day<br /> 1pm to 4pm $50 per day<br /> 9am to 4pm $100 per day"
+                        data-html="true">STEM Camps</a>
                     <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover"
-                        data-placement="top" data-trigger="focus" title="Coding"
-                        data-content="$140 per month<br />1 session per week<br />Python, Scratch, Robotics/VR<br />Free trial offered"
-                        data-html="true">Coding</a>
+                        data-placement="top" data-trigger="focus"
+                        title="Coding<br />Python, Scratch, Robotics/VR<br /><br />Free trial<br />Project based learning<br />Computers provided<br />Use of technology"
+                        data-content="$140 per month<br />1 session per week" data-html="true">Coding</a>
                     <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover"
                         data-placement="top" data-trigger="focus" title="Extended Care"
-                        data-content="$10 per hour<br />9:00am - 6:00pm" data-html="true">Extended Care</a>
-
+                        data-content="$10 per hour<br />9am to 6pm" data-html="true">Extended Care</a>
+                    <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover"
+                        data-placement="top" data-trigger="focus"
+                        title="SAT/HSPT<br /><br />5 full-length practice tests<br />1 review after each test"
+                        data-content="$100 for 1<sup>st</sup> assessment<br />$400 for 4 tests"
+                        data-html="true">SAT/HSPT</a>
+                    <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover"
+                        data-placement="top" data-trigger="focus" title="About Us"
+                        data-content="Learning Center is a one stop fun, safe, and learning environment for your child with all the necessary support and tools. All our instructors go through criminal background checks, and all qualified."
+                        data-html="true">About Us</a>
+                    <a class="btn btn-success btn-lg"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLScHps_iWkKfmM4aRJqQgiNEzVATbhooBF32mTzxPmNLBkouvg/viewform?usp=sf_link"
+                        role="button">Register</a>
                 </div>
             </div>
         </div>
@@ -131,34 +158,36 @@
 
     <div id="social">
         <p class="lead text-center px-5 py-0">
-            <a class="btn btn-outline-info btn-lg mx-2" href="https://www.facebook.com/LearningCenterOfWillowGlen" role="button"><i class="fab fa-facebook-square fa-2x"></i></a>
-            <a class="btn btn-outline-info btn-lg mx-2" href="https://www.yelp.com/biz/learning-center-of-willow-glen-san-jose-2" role="button"><i class="fab fa-yelp fa-2x"></i></a>
+            <a class="btn btn-primary btn-lg mx-2" href="https://www.facebook.com/LearningCenterOfWillowGlen"
+                role="button"><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a class="btn btn-primary btn-lg mx-2"
+                href="https://www.yelp.com/biz/learning-center-of-willow-glen-san-jose-2" role="button"><i
+                    class="fab fa-yelp fa-2x"></i></a>
         </p>
         <p class="lead text-center px-5 py-0" id="phone">
-            (408) 771-9952
+            (408) 771-9934
         </p>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+
+
+
+    <script src="https://kit.fontawesome.com/ba0d5dd0c3.js"></script>
+    <script src="src/js/jquery.min.js"></script>
+    <script src="src/js/popper.min.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+
+    <script src="src/js/main.js"></script>
     <script>
         $(function () {
             $('[data-toggle="popover"]').popover()
         })
-
         $('.popover-dismiss').popover({
             trigger: 'focus'
         })
 
-        
     </script>
+
 </body>
 
 </html>
