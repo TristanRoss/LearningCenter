@@ -8,10 +8,20 @@ html, body {
     color: white;
 }
 
+.navbar-header {
+    float: left;
+    padding: 15px;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+    width: 100%;
+}
+.navbar-brand {float:none;}
+
 .wrapper {
     background-color: rgb(255, 242, 122);
 
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .card-deck {
@@ -43,7 +53,7 @@ html, body {
 #first {
     height: 100%;
     min-height: 300px;
-    background-color: #05386B;
+    background-color: red;
     color: rgb(255, 255, 255);
 }
 
@@ -67,7 +77,7 @@ html, body {
 #last {
     height: 100%;
     min-height: 300px;
-    background-color: #05386B;
+    background-color: red;
     color: rgb(255, 255, 255);
 }
 
@@ -169,6 +179,13 @@ ul {
 
 @media only screen and (max-width: 1000px) {
     .carousel-inner {
+        width: 100%;
+    }
+
+    .navbar-header {
+        float: none;
+        padding: 0;
+        text-align: center;
         width: 100%;
     }
 }
